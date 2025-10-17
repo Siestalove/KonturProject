@@ -52,7 +52,7 @@
         </header>
         <section class="filters">
             <h2 class="visibility-hidden">Фильтры</h2>
-            <form class="filters-form" action="https://echo.htmlacademy.ru/" method="post">
+            <form class="filters-form" action="https://echo.htmlacademy.ru/" method="get">
                 <fieldset class="infrastructure">
                     <legend class="infrastructure-name">Инфраструктура:</legend>
                     <ul class="infrastructure-list">
@@ -92,10 +92,6 @@
                         <input type="number" name="price-min" id="minValue" value="0" min="0" max="10000000"> от
                         <input type="number" name="price-max" id="maxValue" value="9000" min="1" max="10000000"> до
                      </div>
-                    <div class="double-slider">
-                        <input id="min" name="range-min" type="range" min="0" max="10000000" value="0" step="100">
-                        <input id="max" name="range-max" type="range" min="1" max="10000000" value="9000" step="100">
-                    </div>
                 </fieldset>
                 <button type="submit" class="btn-accept-filters">приминить</button>
                 <button type="reset"  class="btn-reset-filters">сбросить</button>
