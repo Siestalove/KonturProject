@@ -28,7 +28,7 @@ body {
     display: flex;
     align-items: center;
     width: 1200px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .link-home-page {
@@ -37,6 +37,8 @@ body {
 
 .navigation {
     margin-right: auto;
+    margin-left: 30px;
+    font-size: 20px;
 }
 
 .navigation-list {
@@ -140,6 +142,7 @@ body {
 .main-page {
     max-width: 1200px; 
     margin: 0 auto;
+    background-color: white;
 }
 
 .catalog-page {
@@ -439,6 +442,7 @@ body {
 .html-academy-link {
     color: rgba(0, 0, 0, 1);
     text-decoration: none;
+    padding-right: 70px ;
 }
 
 .html-academy-link:hover {
@@ -457,16 +461,15 @@ body {
     background-color: white;
     display: flex;
     align-items: center;
-    width: 1060px;
+    width: 1200px;
     margin: 0 auto;
-    padding: 0 70px;
 }
 
 .social-links-list {
     display: flex;
     list-style: none;
     gap: 28px;
-    padding-left: 0;
+    padding-left: 70px;
 }
 
 
@@ -549,7 +552,6 @@ body {
 }
 
 .hotels-item {
-    border: 1px solid #E6E6E6;
     border-radius: 4px;
     width: 340px;
     background: white;
